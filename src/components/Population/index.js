@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+
 import { updatePopulation } from '../../utils/Population';
 import { updatePopulation as updatePopulationAction } from '../../actions/Population';
 import { UPDATE_POPULATION_INTERVAL } from '../../constants/Population';
