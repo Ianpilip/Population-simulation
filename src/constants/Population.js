@@ -1,0 +1,2 @@
+export const DEFAULT_GRID_SIZE = 5;
+export const UPDATE_POPULATION_INTERVAL = 1000;
