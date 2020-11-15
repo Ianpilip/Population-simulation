@@ -29,7 +29,7 @@ const Population: React$ComponentType<{}> = () => {
 							<tr key={commonPopulationIndex}>
 								{
 									commonPopulationItem.map((populationItem, populationIndex) => (
-										<td key={populationIndex} className={populationItem === 1 ? 'black' : ''}></td>
+										<td key={populationIndex} className={populationItem === 1 ? 'alive' : ''}></td>
 									))
 								}
 							</tr>
